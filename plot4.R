@@ -33,6 +33,7 @@ plot(rep(data_table$DateTime, 3),  # x-axis variable.
 # Generate the legend.
 legend("topright",
        pch="_",
+       bty="n",  # No border.
        col=c("black", "red", "blue"),
        legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
